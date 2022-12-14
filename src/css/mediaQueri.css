@@ -1,0 +1,7 @@
+@media (min-width: 700px){
+    .productos .container .ctn_card{
+        /* background-color: red; */
+        grid-template-columns: auto auto;
+
+    }
+}

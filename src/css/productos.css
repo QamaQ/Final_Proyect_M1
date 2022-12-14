@@ -1,0 +1,96 @@
+.productos .container{
+    /* background-color: red; */
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.productos .container .ctn_title{
+    /* background-color: brown; */
+    color: var(--fg);
+    text-align: center;
+
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+    padding: 20px 0;
+
+}
+
+.productos .container .ctn_title span{
+    color: var(--blue);
+    font-size: 25px;
+}
+.productos .container .ctn_title h2{
+    color: black;
+    font-size: 50px;
+}
+
+
+.productos .container .ctn_card{
+    width: 100%;
+
+    display: grid;
+    grid-template-columns: auto;
+    align-self: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.productos .container .card{
+    width: 315px;
+    height: 95px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+.productos .container .card img,
+.productos .container .card .card_img{
+    background-color: #F5F5F5;
+    width: 105px;
+    height: 95px;
+}
+
+
+.productos .container .card .card_txt{
+    width: 210px;
+    height: 95px;
+
+    background-color: var(--lightBlue);
+    color: var(--fg);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.productos .container .card .card_txt h3{
+    background-color: var(--blue);
+    width: 210px;
+    height: 36px;
+
+    text-align: center;
+    line-height: 36px;
+}
+.productos .container .card .card_txt .price{
+    width: 210px;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
