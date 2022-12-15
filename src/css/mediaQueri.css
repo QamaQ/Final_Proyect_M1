@@ -1,7 +1,128 @@
-@media (min-width: 700px){
+@media (min-width: 750px){
+
+    /* .container{
+        max-width: 1200px;
+    } */
+    /* NavBar */
+    header {
+        width: 100%;
+        height: 80px;
+        /* border-bottom: 2px solid rgba(255, 255, 255, 0.2); */
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+    header .container{
+        width: 100%;
+        height: 70px;
+        max-width: 1200px;
+        flex-direction: row;
+        padding: 0 40px;
+
+        /* border-bottom: 2px solid rgba(255, 255, 255, 0.2); */
+    }
+    header .container .logo,
+    header .container .item{
+        width: auto;
+    }
+    header .container .item{
+        justify-content: center;
+        gap: 20px;
+    }
+
+
+    header .container .item a {
+        height: 80px;
+        line-height: 80px;
+    }
+
+
+    #escalab .container{
+        max-width: 1200px;
+
+        background-position: right;
+        justify-content: center;
+        gap: 90px;
+
+    }
+    #escalab .ctn_bg{
+        padding:  0 20px;
+    }
+    #escalab .container .ctn_text{
+        background: none;
+        /* padding: 0 60px; */
+        align-items: flex-start;
+        gap: 30px;
+    }
+    #escalab .container .ctn_text h1,
+    #escalab .container .ctn_text p{
+        text-align: left;
+    }
+    #escalab .container .ctn_text h1{
+        font-size: 4em;
+    }
+    #escalab .container .ctn_text p{
+        font-size: 1.7em;
+    }
+
+
+    #escalab .container .ctn_btn{
+        background: none;
+
+        align-items: flex-start;
+        justify-content: flex-start;
+        
+    }
+
+
+    /* Productos */
+    .productos .container{
+        padding: 30px 0;
+    }
+    .productos .container .ctn_title{
+        height: 200px;
+    }
     .productos .container .ctn_card{
         /* background-color: red; */
         grid-template-columns: auto auto;
 
+    }
+    .productos .container .ctn_card .card{
+        width: 346px;
+        height: 333px;
+
+        flex-direction: column;
+        
+    }
+    .productos .container .card img,
+    .productos .container .card .card_img{
+        width: 100%;
+        height: 230px;
+        border-radius: 10px 10px 0px 0px;
+    }
+    .productos .container .card .card_txt{
+        width: 100%;
+        height: 103px;
+        border-radius: 0px 0px 10px 10px;
+    }
+    .productos .container .card .card_txt h3{
+        width: 100%;
+    }
+    .productos .container .card .card_txt .price{
+        width: 100%;
+    }
+}
+
+
+
+@media (min-width: 1200px){
+    header .container{
+        padding: 0 10px;
+    }
+    .productos .container .ctn_card{
+        grid-template-columns: auto auto auto;
     }
 }
